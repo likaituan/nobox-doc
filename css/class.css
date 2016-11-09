@@ -1,0 +1,90 @@
+/*主容器*/
+.page{
+    /*
+    margin:25px;
+    width: calc(100% - 50px);
+    */
+    min-height: calc(100% - 50px);
+    background: #fff;
+}
+
+.clear::after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+/*布局块*/
+
+.float{
+    float:left;
+}
+
+/*文字对齐*/
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+/*文字颜色*/
+.red{
+    color:red;
+}
+
+.blue{
+    color:blue;
+}
+
+.green{
+    color:green;
+}
+
+.white{
+    color:#fff;
+}
+
+/*背景颜色*/
+.bg-red{
+    background-color:#F27935;
+}
+
+.bg-blue{
+    background-color:#1E8BC3;
+}
+
+.bg-green{
+    background-color:#00B16A;
+}
+
+.bg-gray{
+    background-color:#666;
+}
+
+.bg-black{
+    background-color:#000;
+}
+
+/*其他*/
+.button{
+    border: 1px solid #eeeeee;
+    padding-left: 1.5rem;
+    cursor:pointer;
+}
+
+.content{
+    padding: 0.5rem 2rem;
+    line-height: 30px;
+}
+
+/*加粗*/
+.bold{
+    font-weight: bold;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "nobox-doc",
+  "version": "1.0.0",
+  "description": "nobox document",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likaituan/nobox-doc.git"
+  },
+  "keywords": [
+    "nobox"
+  ],
+  "author": "Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/likaituan/nobox-doc/issues"
+  },
+  "homepage": "http://101.200.178.123:2001",
+  "devDependencies": {
+    "seekjs": "latest"
+  },
+  "dependencies": {
+    "ifun": "latest"
+  }
+}

@@ -30,7 +30,7 @@
             <h3 class="ui-node-title">1.表单验证</h3>
             <ul>
                 <li>chk</li>
-                <li><a href="#guide-rule">rule定义规则</a></li>
+                <li><a href="#rule">rule定义规则</a></li>
             </ul>
         </div>
     </li>
@@ -48,7 +48,27 @@
             <h3 class="ui-node-title">3.静态服务器</h3>
             <ul>
                 <li>目前支持的文件类型如下: .html,.js,.txt,.json,.jpg,.gif,.png</li>
-                <li>如找不到文件, 提示file is node found</li>
+                <li>如找不到文件, 提示file is no found</li>
+            </ul>
+        </div>
+    </li>
+    <li>
+        <div class="ui-node">
+            <h3 class="ui-node-title">4.nobox命令</h3>
+            <ul>
+                <li>nobox start 启动服务</li>
+                <li>nobox pub 发版</li>
+                <li>nobox list 显示服务列表</li>
+                <li>nobox stop 停止服务</li>
+            </ul>
+        </div>
+    </li>
+    <li>
+        <div class="ui-node">
+            <h3 class="ui-node-title">5.nobox配置</h3>
+            <ul>
+                <li>nobox.config配置</li>
+                <li><a href="#config">详见</a></li>
             </ul>
         </div>
     </li>
